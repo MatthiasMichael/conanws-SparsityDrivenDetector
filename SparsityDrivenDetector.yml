@@ -1,0 +1,23 @@
+editables:
+    Geometry/1.0@MatthiasMichael/stable:
+        path: ../Geometry
+
+    NamedType/1.0@MatthiasMichael/stable:
+        path: ../NamedType
+
+    OsgVisualization/1.0@MatthiasMichael/stable:
+        path: ../OsgVisualization
+        layout: layout_OsgVisualization
+
+    Parametrizable/1.0@MatthiasMichael/stable:
+        path: ../Parametrizable
+
+    Roi3DF/1.0@MatthiasMichael/stable:
+        path: ../Roi3DF
+
+    SparsityDrivenDetector/1.0@MatthiasMichael/stable:
+        path: ../SparsityDrivenDetector
+
+layout: layout
+workspace_generator: cmake
+root: SparsityDrivenDetector/1.0@MatthiasMichael/stable

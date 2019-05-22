@@ -1,0 +1,8 @@
+[build_folder]
+vc141_ws
+
+[source_folder]
+cmake
+
+[includedirs]
+include
