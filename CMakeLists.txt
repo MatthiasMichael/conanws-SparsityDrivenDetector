@@ -2,5 +2,7 @@ CMAKE_MINIMUM_REQUIRED(VERSION 3.10)
 
 PROJECT(SparsityDrivenDetector_Workspace)
 
-INCLUDE(${CMAKE_BINARY_DIR}/conanworkspace.cmake)
-CONAN_WORKSPACE_SUBDIRECTORIES()
+INCLUDE(conan.cmake)
+conan_cmake_run(
+	WORKSPACEFILE SparsityDrivenDetector.yml
+	BUILD missing)

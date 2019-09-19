@@ -1,0 +1,18 @@
+[submodule "SparsityDrivenDetector"]
+	path = SparsityDrivenDetector
+	url = git://github.com/MatthiasMichael/SparsityDrivenDetector.git
+[submodule "Geometry"]
+	path = Geometry
+	url = git://github.com/MatthiasMichael/Geometry.git
+[submodule "NamedType"]
+	path = NamedType
+	url = git://github.com/MatthiasMichael/NamedType.git
+[submodule "Roi3DF"]
+	path = Roi3DF
+	url = git://github.com/MatthiasMichael/Roi3DF.git
+[submodule "Parametrizable"]
+	path = Parametrizable
+	url = git://github.com/MatthiasMichael/Parametrizable.git
+[submodule "OsgVisualization"]
+	path = OsgVisualization
+	url = git://github.com/MatthiasMichael/OsgVisualization.git
