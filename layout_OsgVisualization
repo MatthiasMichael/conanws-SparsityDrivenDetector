@@ -1,9 +1,9 @@
 [build_folder]
-vc141_ws
+../build/{{reference.name}}
 
 [source_folder]
 cmake
 
 [includedirs]
 include
-vc141_ws/ui_include
+../build/{{reference.name}}/ui_include
